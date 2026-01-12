@@ -1,0 +1,13 @@
+prefix=/Users/santoshswami/Projects/AI-Python/venv
+exec_prefix=/Users/santoshswami/Projects/AI-Python/venv
+libdir=/Users/santoshswami/Projects/AI-Python/venv/lib
+sharedlibdir=/Users/santoshswami/Projects/AI-Python/venv/lib
+includedir=/Users/santoshswami/Projects/AI-Python/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
